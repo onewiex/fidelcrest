@@ -95,5 +95,5 @@ document.addEventListener('DOMContentLoaded', function () {
 const loginComponent = document.getElementById('coinmarketcap-login');
 loginComponent.addEventListener('click', (event) => {
   event.preventDefault();
-  window.location.href = 'https://google.com';
+  window.location.href = 'https://trade.fidelcrest.com/log-in?lang=en';
 });
